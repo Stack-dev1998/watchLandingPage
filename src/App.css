@@ -1,0 +1,280 @@
+/* *{
+  background: #F7F6F4;
+  font-family: Taviraj;
+} */
+.body {
+  background-color: #f7f6f4;
+  font-family: Taviraj;
+  letter-spacing: 0.02em;
+}
+.bg_white {
+  background: white;
+}
+.text_light {
+  color: #777777;
+}
+.img_width_100 {
+  width: 100%;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.hero_section {
+  position: relative;
+}
+.hero_section .main_heading {
+  font-size: 60px;
+  line-height: 80px;
+  /* or 133% */
+  margin-top: 20px;
+  letter-spacing: 0.02em;
+}
+.hero_section .paragraph {
+  width: 50%;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+.hero_section .add_to_cart {
+  width: 208px;
+  height: 62px;
+  left: 545px;
+  top: 553px;
+  color: white;
+  background: #d84727;
+  border: none;
+}
+.hero_section .ci_btn {
+  width: 140px;
+  height: 62px;
+  border: 2px solid #d84727;
+  box-sizing: border-box;
+  background-color: transparent;
+  margin-left: 10px;
+  color: #d84727;
+  font-weight: 900;
+}
+.hero_section .right_arrows {
+  float: right;
+  margin-top: 40px;
+}
+.hero_section .right_arrows button:first-child {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #d84727;
+  background: transparent;
+  color: #d84727;
+}
+
+.hero_section .right_arrows button:last-child {
+  width: 60px;
+  height: 60px;
+  background: #d84727;
+  border: none;
+  color: white;
+  margin-left: 20px;
+}
+.line_images {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/*============================ second section style start===================*/
+.second_section {
+  margin-top: 200px;
+}
+.second_section .left_div {
+  min-height: 240px;
+  padding: 20px;
+}
+.second_section .discover_now {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid balck;
+  color: #333333;
+}
+.second_section .right_div {
+  padding: 20px;
+  min-height: 240px;
+}
+.second_section .right_div img {
+  width: 155px;
+  height: 152px;
+  float: right;
+}
+
+.second_section .text_div {
+  width: 60%;
+}
+.second_section .img_div {
+  position: absolute;
+  width: 40%;
+  bottom: 0;
+  right: 0;
+}
+
+/*================================ monthly deal ====================================*/
+
+.monthly_deal h1:first-child {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+.monthly_deal .card {
+  position: relative;
+  margin-top: 100px;
+}
+.monthly_deal .img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin-top: -40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.monthly_deal .card .name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+  margin-top: 20px;
+}
+
+.monthly_deal .card .discount {
+  font-size: 16px;
+  color: #777777;
+}
+.monthly_deal .card .cross {
+  color: #777777;
+  text-decoration: line-through;
+}
+.monthly_deal .card .price {
+  font-size: 24px;
+}
+
+.monthly_deal .card .love {
+  width: 25%;
+  height: 39px;
+  border: 1px solid #d84727;
+  background: transparent;
+}
+
+.monthly_deal .card .add_to_cart {
+  width: 70%;
+  color: white;
+  height: 39px;
+  margin-left: 5%;
+  border: none;
+  background: #d84727;
+}
+
+.monthly_deal .card .hovr {
+  visibility: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.monthly_deal .card:hover .hovr {
+  visibility: visible;
+}
+
+/*============================ Recent news =================================*/
+
+.recent_news {
+  margin-top: 40px;
+}
+.recent_news h1:first-child {
+  font-weight: 500;
+  font-size: 36px;
+}
+.recent_news .h2 {
+  font-size: 36px;
+}
+
+.recent_news .btn {
+  height: 58px;
+  width: 160px;
+  margin-top: 20px;
+  border: 2px solid #d84727;
+  box-sizing: border-box;
+}
+/*==================== new ====================*/
+
+.box {
+  width: 131px;
+  height: 131px;
+  background: #f1ddc9;
+  display: block;
+}
+
+/*=========================asd=======================*/
+.see_more {
+  width: 20%;
+  height: 66px;
+  background: transparent;
+  border: 1px solid #d84727;
+  color: #d84727;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper {
+  width: 100%;
+}
+.wrapper::before,
+.wrapper::after {
+  content: " ";
+  width: 35%;
+  height: 1px;
+  margin: 0 10px;
+  vertical-align: super;
+  background-color: grey;
+  display: inline-block;
+}
+
+/*=================== instagram ===============================*/
+.instagram .col {
+  padding: 0px;
+}
+
+.instagram .col:first-child {
+  padding-left: 12px;
+}
+.instagram .col:last-child {
+  padding-right: 12px;
+}
+.instagram .col img {
+  width: 100%;
+  height: 100%;
+}
+
+/*============================ footer_icons ==============================*/
+.footer_icons {
+  min-height: 303px;
+  background: #da5e42;
+}
+
+/*===================== Footer ============================*/
+.footer {
+  background: #d84727;
+  color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .box {
+    width: 100%;
+    height: 300px;
+    background: #f1ddc9;
+    display: block;
+  }
+}
+
+ 

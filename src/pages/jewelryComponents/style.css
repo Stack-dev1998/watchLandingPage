@@ -1,0 +1,98 @@
+.jewelry {
+  color: #432916;
+}
+
+.jewelry .main_section {
+  width: 100%;
+  height: 400px;
+  font-family: Verdana;
+  background: #f7f0e8;
+}
+
+.width_60 {
+  width: 60%;
+}
+
+.jewelry .nav_bar {
+  margin-top: 10px;
+}
+
+.jewelry .to {
+  width: 141px;
+  height: 17px;
+
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.16em;
+
+  color: #705645;
+}
+
+.jewelry .new_arrival {
+  font-family: Petit Formal Script;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+.jewelry .arrivals h6 {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #432916;
+  margin-top: 10px;
+}
+
+.jewelry .arrivals p {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #615f5e;
+}
+
+.jewelry .arrivals a {
+  font-family: Verdana;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #705645;
+  text-align: center;
+}
+.jewelry .rings {
+  height: 302px;
+  background: #e9ebed;
+}
+
+.jewelry .shop_now {
+  width: 108px;
+  color: #432916;
+  border: 1px solid #dcc29c;
+}
+
+.jewelry .my_footer {
+  height: 175px;
+  color: white;
+  background: #432916;
+}
